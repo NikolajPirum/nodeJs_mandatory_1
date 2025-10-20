@@ -1,0 +1,28 @@
+body {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    font-family: cambria;
+    background-color: rgb(232, 241, 218);
+}
+
+main {
+    flex: 1;
+}
+.h{
+    font-style: italic;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: serif;
+}

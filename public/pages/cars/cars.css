@@ -1,0 +1,20 @@
+#table-carOwner-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1 vh;
+    font-family: Cambria;
+}
+
+#owner-profile-picture {
+    height: 40vh;
+    width: 40vh;
+    border-radius: 30%;
+}
+
+h1{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+
+}

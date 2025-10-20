@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_mandatory_1",
+  "version": "0.0.1",
+  "description": "nodeJs mandatory 1 assignment: Create a website that contains documentation for what you have learned so far.",
+  "keywords": [
+    "assignment",
+    "mandatory",
+    "nodeJs",
+    "autumn",
+    "2025",
+    "KE"
+  ],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env PORT=9090 nodemon app.js",
+    "prod": "node app.js"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "cross-env": "^10.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
